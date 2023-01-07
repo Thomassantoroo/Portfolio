@@ -6,7 +6,6 @@
             <ul>
                 <li><a href="profil.html">Profil</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="apropos.html">A_propos</a></li>
             </ul>
         </li>
         <!-- Fin du sous-menu déroulant -->
@@ -96,6 +95,9 @@
         <span class="letter16">i</span>
         <span class="letter16">o</span>
     </h1>
+    <h2>
+        Thomas Santoro
+    </h2>
   </div>
 
 <style>
@@ -111,6 +113,7 @@ body {transition:background-color 4s ease; background:linear-gradient(70deg,purp
 /* Réglages du bloc de texte général */
 #wrapper {text-align:center; font-family:'Dancing Script', cursive;}
 #wrapper h1 {margin-top:40vh; white-space:normal; display:inline-block; font-size:5em; font-weight:300; background:linear-gradient(75deg, #E5E0F9,#C5C7DB,#EAEDF3,#C5D2DB,#E0F6F9); color:transparent; background-clip:text; -webkit-background-clip:text; position:relative;}
+#wrapper h2 { white-space:normal; display:inline-block; font-size:5em; font-weight:300; background:linear-gradient(75deg, #E5E0F9,#C5C7DB,#EAEDF3,#C5D2DB,#E0F6F9); color:transparent; background-clip:text; -webkit-background-clip:text; position:relative;}
 
 /* Animations des lettres */
 
@@ -120,7 +123,7 @@ h1::after {content:""; display:block; background:linear-gradient(45deg, #F9CFF3,
   100% {width:100%; opacity:1.0;}
 }
 
-h1 {animation:textAnimated 60s ease infinite;}
+#wrapper {animation:textAnimated 60s ease infinite;}
 @keyframes textAnimated {
   0% {background:linear-gradient(70deg,#FDD9CD,#E3BCB8,#FAD6DB,#E3B8D3,#F9CDFD); background-position:-12em 0; background-clip:text; -webkit-background-clip:text; color:transparent;}
   50% {background:linear-gradient(85deg,#FDD9CD,#E3BCB8,#FAD6DB,#E3B8D3,#F9CDFD); background-position:0 0; background-clip:text; -webkit-background-clip:text; color:transparent;}
